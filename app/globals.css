@@ -72,3 +72,4 @@
 @keyframes gridRun{to{background-position:0 78px,0 78px}}
 @media(max-width:600px){.hero .jackpot-bulbs i,.side-bulbs i{width:5px;height:5px}.side-bulbs{top:50px;bottom:30px;width:5px}.side-left{left:5px}.side-right{right:5px}.neon-top{top:3%}.neon-bar{display:none}.tube-c{display:none}.retro-sun{top:18%}.hero .cabinet{box-shadow:inset 0 0 0 4px #2a0409,inset 0 0 0 6px #ff4b5c,7px 4px 0 #7a0c18,13px 8px 0 #45060e,17px 10px 0 #1c0207,20px 30px 40px #000b,0 0 0 2px #ff3fa4,0 0 22px #ff3fa4aa,0 0 50px #ff2a3d77}}
 @media(prefers-reduced-motion:reduce){.hero .jackpot-bulbs i,.side-bulbs i,.wall-neon,.hero .marquee,.hero .cabinet,.arcade-floor{animation:none!important}}
+#vinyl-player.song-player{height:auto;aspect-ratio:16/9;max-height:260px;width:100%;mix-blend-mode:normal;background:#151310;border-radius:12px;overflow:hidden}.song-player iframe{width:100%;height:100%;display:block;border:0}
