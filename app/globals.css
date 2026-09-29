@@ -95,3 +95,6 @@
 @keyframes spillVinyl{from{transform:scaleY(.225) rotate(0deg) scaleY(4.444)}to{transform:scaleY(.225) rotate(360deg) scaleY(4.444)}}
 @media(max-width:900px){.photo-fade{height:400px}}@media(max-width:600px){.spill-art{width:100%}.photo-fade{height:340px;width:78%}}
 @media(prefers-reduced-motion:reduce){.spill-record{animation:none!important}.spill-art,.photo-fade{opacity:1!important}}
+.spill-art .spill-record{position:absolute;left:calc((418 - 430) / 854 * 100%);top:calc((324 - 430) / 454 * 100%);width:calc(860 / 854 * 100%);height:calc(860 / 454 * 100%);right:auto;bottom:auto;transform-origin:50% 50%;transform:scaleY(.222);animation:spillVinylCrisp 2.4s linear infinite;animation-play-state:paused;overflow:visible}.spill-art.is-playing .spill-record{animation-play-state:running}
+@keyframes spillVinylCrisp{from{transform:scaleY(.222) rotate(0deg)}to{transform:scaleY(.222) rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.spill-art .spill-record{animation:none!important}}
